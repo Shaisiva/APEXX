@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-24T11:00:08 IST" name="Testing Google Apps" finished-at="2024-02-24T11:02:20 IST" duration-ms="131650">
+    <groups>
+    </groups>
+    <test started-at="2024-02-24T11:00:08 IST" name="Regression" finished-at="2024-02-24T11:02:20 IST" duration-ms="131650">
+      <class name="BaseSetup.setUp">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseSetup.setUp@3d6f0054]" started-at="2024-02-24T11:00:08 IST" name="setup" finished-at="2024-02-24T11:00:12 IST" duration-ms="4435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate_to_homepage_click_on_getstarted()[pri:1, instance:BaseSetup.setUp@3d6f0054]" started-at="2024-02-24T11:00:12 IST" name="navigate_to_homepage_click_on_getstarted" finished-at="2024-02-24T11:02:19 IST" duration-ms="126639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_homepage_click_on_getstarted -->
+        <test-method signature="enter_userDetails()[pri:2, instance:BaseSetup.setUp@3d6f0054]" started-at="2024-02-24T11:02:19 IST" name="enter_userDetails" finished-at="2024-02-24T11:02:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_userDetails -->
+        <test-method is-config="true" signature="after_test()[pri:0, instance:BaseSetup.setUp@3d6f0054]" started-at="2024-02-24T11:02:19 IST" name="after_test" finished-at="2024-02-24T11:02:20 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+      </class> <!-- BaseSetup.setUp -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing Google Apps -->
+</testng-results>
